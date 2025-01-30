@@ -4,8 +4,8 @@ import { useState } from "react";
 import ReactDatePicker from "react-datepicker";
 
 const HumanFriendlyDatePicker = () => {
-    const [startDate, setStartDate] = useState(new Date());
-    const handleChange = (date: Date) => {
+    const [startDate, setStartDate] = useState<Date | null>(new Date());
+    const handleChange = (date: Date | null) => {
       setStartDate(date);
     };
   return (

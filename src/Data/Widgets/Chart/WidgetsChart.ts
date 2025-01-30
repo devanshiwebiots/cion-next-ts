@@ -18,7 +18,6 @@ export const saleChart:ApexOptions = {
       curve: "smooth",
     },
     xaxis: {
-    //   show: false,
       type: "datetime",
       categories: [
         "2018-09-19T00:00:00",
@@ -96,7 +95,6 @@ export const projectChart:ApexOptions = {
       curve: "smooth",
     },
     xaxis: {
-    //   show: false,
       type: "datetime",
       categories: [
         "2018-09-19T00:00:00",
@@ -173,7 +171,6 @@ export const productChart:ApexOptions = {
       curve: "smooth",
     },
     xaxis: {
-    //   show: false,
       type: "datetime",
       categories: [
         "2018-09-19T00:00:00",
@@ -259,7 +256,6 @@ export const productChart:ApexOptions = {
       bar: {
         horizontal: false,
         columnWidth: "30%",
-        // endingShape: "rounded",
       },
     },
     dataLabels: {
@@ -333,7 +329,6 @@ export const productChart:ApexOptions = {
     },
     plotOptions: {
       radialBar: {
-        // size: undefined,
         inverseOrder: false,
         hollow: {
           margin: 10,
@@ -358,11 +353,6 @@ export const productChart:ApexOptions = {
       fontWeight: 500,
       labels: {
         colors: "#2C323F",
-      },
-      markers: {
-        // width: 86,
-        // height: 18,
-        // radius: 3,
       },
     },
     colors: ["#ff6150", "#33BFBF", "#63d5be"],

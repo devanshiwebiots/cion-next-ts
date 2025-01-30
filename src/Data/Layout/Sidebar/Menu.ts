@@ -76,7 +76,7 @@ export const SidebarMenu: SidebarMenuTypes[] = [
           {title: "dropzone",link: `/bonusui/dropzone`,type: "link",},
           {title: "Tour",link: `/bonusui/tour`,type: "link",},
           {title: "SweetAlert2",link: `/bonusui/sweetalert2`,type: "link",},
-          {title: "Owl Carousel",link: `/bonusui/owlcarousel`,type: "link",},
+          {title: "Carousel",link: `/bonusui/carousel`,type: "link",},
           {title: "Ribbons",link: `/bonusui/ribbons`,type: "link",},
           {title: "Pagination",link: `/bonusui/pagination`,type: "link",},
           {title: "Breadcrumb",link: `/bonusui/breadcrumb`,type: "link",},

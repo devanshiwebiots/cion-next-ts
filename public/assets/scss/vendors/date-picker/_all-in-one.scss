@@ -271,7 +271,6 @@ $datepickerTransitionOffset: 8px !default;
 
 .datepicker {
   background: #fff;
-  // border: 1px solid map_get($datepickerBorderColor, default);
   border-radius: $datepickerBorderRadius;
   box-sizing: content-box;
   font-size: $datepickerFontSize;

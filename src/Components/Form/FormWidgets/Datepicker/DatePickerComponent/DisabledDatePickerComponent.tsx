@@ -16,12 +16,7 @@ const DisabledDatePickerComponent = () => {
       </Col>
       <Col xxl={9} className="box-col-12">
         <InputGroup className="flatpicker-calender">
-          <ReactDatePicker
-            className="form-control"
-            selected={selectedDate}
-            onChange={(date: Date) => setSelectedDate(date)}
-            excludeDates={disabledDates}
-          />
+          <ReactDatePicker className="form-control" selected={selectedDate} onChange={(date: Date | null) => setSelectedDate(date)} excludeDates={disabledDates} />
         </InputGroup>
       </Col>
     </Row>

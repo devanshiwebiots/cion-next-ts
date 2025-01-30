@@ -772,7 +772,7 @@ export const TimeLineData6 = (
     </div>
   </div>
 );
-export const OwlCarousels = "Owl Carousel";
+export const OwlCarousels = "Carousel";
 export const SlidesOnly = "Slides Only";
 export const WithControls = "With Controls";
 export const AutoPlayVariant = "Auto Play Variant";

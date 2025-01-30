@@ -2085,16 +2085,6 @@ body {
 			blockquote {
 				border-color: var(--theme-default);
 			} 
-			// &:text-start {
-			// 	blockquote { 
-			// 		border-left-color: var(--theme-default);
-			// 	}
-			// }
-			// &.text-end {
-			// 	blockquote { 
-			// 		border-right-color: var(--theme-default);
-			// 	}
-			// }
 		}
 		.contacts-tabs {
 			.nav-pills {
@@ -4050,9 +4040,6 @@ body {
 								}
 							}
 						}
-						// .scroll-demo {
-						// 	border: 1px solid $dark-card-border; 
-						// }
 						.search-form {
 							input {
 								border: 1px solid $dark-border-color;
@@ -4910,10 +4897,6 @@ body {
 					background-color: $dark-card-background;
 				}
 			}
-			// .balance-widget.card-body {
-			// 	background-color: $dark-card-background;
-			// 	background-blend-mode: overlay;
-			// }
 			@media screen and (max-width: 1660px) {
 				.chat-box {
 					.chat-history {

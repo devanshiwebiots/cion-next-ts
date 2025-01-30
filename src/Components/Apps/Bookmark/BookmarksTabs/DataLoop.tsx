@@ -24,7 +24,6 @@ const DataLoop = () => {
   };
 
   const onHandleClick = (data: BookMarkData) => {
-    console.log(data,"data")
     dispatch(setEditModal());
     dispatch(setEditRow(data));
   };

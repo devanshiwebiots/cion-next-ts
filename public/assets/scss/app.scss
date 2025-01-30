@@ -59,8 +59,8 @@
 @import 'filepond-plugin-image-preview/dist/filepond-plugin-image-preview.css';
 
  
-// Scrollable
-@import 'react-perfect-scrollbar/dist/css/styles.css';
+//react-perfect-scrollbar
+@import "react-perfect-scrollbar/dist/css/styles.css";
 // ico icon
 @import './vendors/icoicon/icons';
 //LeafLet
@@ -73,4 +73,14 @@
 // Carousel
 @import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-@import 'photoswipe/dist/photoswipe.css'
+@import 'photoswipe/dist/photoswipe.css';
+
+//tour
+@import "@sjmc11/tourguidejs/src/scss/tour.scss";
+
+//swiper
+@import "swiper/css";
+@import "swiper/css/pagination";
+@import "swiper/css/navigation";
+@import "swiper/css/grid";
+@import "swiper/css/effect-fade";

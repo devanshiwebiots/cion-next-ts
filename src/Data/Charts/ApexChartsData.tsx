@@ -117,15 +117,6 @@ export const areaSpaline: ApexOptions = {
         type: 'datetime',
         categories: ['2022-09-19T00:00:00.000Z', '2022-09-19T01:30:00.000Z', '2022-09-19T02:30:00.000Z', '2022-09-19T03:30:00.000Z', '2022-09-19T04:30:00.000Z', '2022-09-19T05:30:00.000Z', '2022-09-19T06:30:00.000Z']
     },
-    // responsive: [{
-    //     breakpoint: 360,
-    //     options: {
-    //       chart: {
-    //         offsetX: -10,
-    //         offsetY: 10
-    //       },
-    //     }
-    // }],
     colors:['#33BFBF', '#FF6150']
 }
 
@@ -380,7 +371,6 @@ export const apexLineWithAnnotationCharts:ApexOptions = {
                 size: 8,
                 fillColor: '#fff',
                 strokeColor: 'red',
-                // radius: 2,
                 cssClass: 'apexcharts-custom-class'
             },
             label: {
@@ -436,17 +426,6 @@ export var apexPieChart:ApexOptions = {
     },
     labels: ['Team A', 'Team B', 'Team C', 'Team D', 'Team E'],
     series: [44, 55, 13, 43, 22],
-    // responsive: [{
-    //     breakpoint: 480,
-    //     options: {
-    //         chart: {
-    //             width: 200
-    //         },
-    //         legend: {
-    //             position: 'bottom'
-    //         }
-    //     }
-    // }],
     colors:['#33BFBF', '#FF6150', '#51bb25', '#7a15f7', '#ff5f24']
 }
 
@@ -456,17 +435,6 @@ export var apexDonutCharts:ApexOptions = {
         type: 'donut',
     },
     series: [44, 55, 41, 17, 15],
-    // responsive: [{
-    //     breakpoint: 480,
-    //     options: {
-    //         chart: {
-    //             width: 200
-    //         },
-    //         legend: {
-    //             position: 'bottom'
-    //         }
-    //     }
-    // }],
     colors:['#33BFBF', '#FF6150', '#51bb25', '#7a15f7', '#ff5f24']
 }
 

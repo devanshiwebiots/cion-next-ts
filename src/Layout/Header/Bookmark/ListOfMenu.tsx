@@ -7,7 +7,6 @@ const ListOfMenu = (props: ListOfMenuProp) => {
   const { searchToggle, searchBar, searchValue, removeFix, setBookmarkItems, bookmarkItems, searchResult } = props;
   const addToBookmark = (event: any, items: any) => {
     const index = bookmarkItems.indexOf(items);
-    console.log("indexeedd......",index)
     if (index === -1 && !items.bookmark) {
       items.bookmark = true;
       event.currentTarget.classList.add("starred");

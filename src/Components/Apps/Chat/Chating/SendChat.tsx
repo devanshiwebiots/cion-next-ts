@@ -1,8 +1,7 @@
 import { useState } from 'react'
 import { Button, Col, Input, InputGroup, Row } from 'reactstrap';
 import { Send } from '@/utils/Constant';
-import data from '@emoji-mart/data'
-import Picker from '@emoji-mart/react'
+import EmojiPicker from "emoji-picker-react";
 import { useAppDispatch, useAppSelector } from '@/Redux/Hooks';
 import { replyByUserAsync, sendMessageAsync } from '@/Redux/Reducer/ChatSlice';
 import Image from 'next/image';
@@ -46,23 +45,23 @@ const SendChat = () => {
   return (
     <div className="chat-message clearfix">
       <Row>
-        <div>
-          {showEmojiPicker ? (<Picker data={data} onEmojiSelect={(e: any) => { addEmoji(e.native);}}/>) : null}
-        </div>
+        <div>{showEmojiPicker ? <EmojiPicker onEmojiClick={({ emoji }) => addEmoji(emoji)} /> : null}</div>
         <Col xl={12} className="d-flex">
           <div className="smiley-box bg-primary">
             <div className="picker" onClick={() => setShowEmojiPicker(!showEmojiPicker)}>
-              <Image  src={`${ImagePath}/smiley.png`} alt="smiley" height={29} width={28}/>
+              <Image src={`${ImagePath}/smiley.png`} alt="smiley" height={29} width={28} />
             </div>
           </div>
           <InputGroup className="text-box">
-            <Input type="text" className="input-txt-bx" placeholder="Type a message......" value={messageInput} onChange={(e) => handleMessageChange(e.target.value)}/>
-            <Button className="input-group-text" color="primary" onClick={handleMessagePress}>{Send}</Button>
+            <Input type="text" className="input-txt-bx" placeholder="Type a message......" value={messageInput} onChange={(e) => handleMessageChange(e.target.value)} />
+            <Button className="input-group-text" color="primary" onClick={handleMessagePress}>
+              {Send}
+            </Button>
           </InputGroup>
         </Col>
       </Row>
     </div>
-  )
+  );
 }
 
 export default SendChat

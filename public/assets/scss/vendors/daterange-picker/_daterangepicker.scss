@@ -261,9 +261,7 @@ $daterangepicker-ranges-active-border-radius: $daterangepicker-border-radius !de
 
     &.available {
       &:hover {
-        //background-color: $daterangepicker-cell-hover-bg-color;
         border-color: $daterangepicker-cell-hover-border-color;
-        //color: $daterangepicker-cell-hover-color;
         background-color:var(--theme-default);
         color:$white;
       }

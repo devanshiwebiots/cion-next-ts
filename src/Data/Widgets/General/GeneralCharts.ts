@@ -36,7 +36,6 @@ export var bitcoinChart:ApexOptions = {
       size: 0
     },
     xaxis: {
-      // type: 'datetime',
       axisBorder: {
         show: false
       },
@@ -71,12 +70,6 @@ export var bitcoinChart:ApexOptions = {
       x: {
         show: false,
       },
-    //   y: {
-    //     show: false,
-    //     labels: {
-    //       show: false
-    //     }
-    //   },
     },
     responsive: [
       {
@@ -136,7 +129,6 @@ export var bitcoinChart:ApexOptions = {
       size: 0
     },
     xaxis: {
-      // type: 'datetime',
       axisBorder: {
         show: false
       },
@@ -171,12 +163,6 @@ export var bitcoinChart:ApexOptions = {
       x: {
         show: false,
       },
-    //   y: {
-    //     show: false,
-    //     labels: {
-    //       show: false
-    //     }
-    //   },
     },
     responsive: [
       {
@@ -235,7 +221,6 @@ export var bitcoinChart:ApexOptions = {
       size: 0
     },
     xaxis: {
-      // type: 'datetime',
       axisBorder: {
         show: false
       },
@@ -270,12 +255,6 @@ export var bitcoinChart:ApexOptions = {
       x: {
         show: false,
       },
-    //   y: {
-    //     // show: false,
-    //     labels: {
-    //       show: false
-    //     }
-    //   },
     },
     responsive: [
       {
@@ -324,7 +303,6 @@ export var averageSaleChart:ApexOptions = {
           margin: 5,
         },
         dataLabels: {
-        //   showOn: "always",
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -338,16 +316,6 @@ export var averageSaleChart:ApexOptions = {
     stroke: { 
       lineCap: "round",
     },
-    // responsive: [
-    //   {
-    //     breakpoint: 1500,
-    //     options: {
-    //       chart: {
-    //         height: 130,
-    //       }
-    //     }
-    //   },
-    // ]
   }
 
   export var averageProfitChart :ApexOptions = {
@@ -375,7 +343,6 @@ export var averageSaleChart:ApexOptions = {
           margin: 5,
         },
         dataLabels: {
-        //   showOn: "always",
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -433,8 +400,6 @@ export var averageSaleChart:ApexOptions = {
     bar: {
     columnWidth: '40%',
     barHeight: '80%',
-    // startingShape: 'rounded',
-    // endingShape: 'rounded',
     },
     },
     colors: [ConfigDB.data.color.primary_color , ConfigDB.data.color.primary_color , "#F2F3F7", "#F2F3F7"],
@@ -449,7 +414,6 @@ export var averageSaleChart:ApexOptions = {
     },
     grid: {
     xaxis: {
-    // offsetX: -2,
     lines: {
     show: false,
     },
@@ -475,12 +439,6 @@ export var averageSaleChart:ApexOptions = {
     shared: false,
     x: {
     show: false,
-    },
-    y: {
-    // show: false,
-    },
-    z: {
-    // show: false,
     },
     },
     xaxis: {
@@ -619,12 +577,6 @@ export var averageSaleChart:ApexOptions = {
       x: {
         show: false,
       },
-    //   y: {
-    //     show: false,
-    //   },
-    //   z: {
-    //     show: false,
-    //   },
       marker: {
         show: false
       }
@@ -764,7 +716,6 @@ export var radialCommonOption:ApexOptions =
           margin: 5,
         },
         dataLabels: {
-        //   showOn: "always",
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -816,7 +767,7 @@ export var radialCommonOption:ApexOptions =
           margin: 5,
         },
         dataLabels: {
-        //   showOn: "always",
+      
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -868,7 +819,7 @@ export var radialCommonOption:ApexOptions =
           margin: 5,
         },
         dataLabels: {
-        //   showOn: "always",
+      
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -919,8 +870,7 @@ export var radialCommonOption:ApexOptions =
           opacity: 1,
           margin: 5,
         },
-        dataLabels: {
-        //   showOn: "always",
+        dataLabels: {      
           value: {
             color: "var(--body-font-color)",
             fontSize: "14px",
@@ -1019,7 +969,6 @@ export const growthOptions:ApexOptions = {
           opacity: 1
         },
       ]
-      // stops: [0, 100, 100, 100]
     },
   },
   yaxis: {
@@ -1108,7 +1057,6 @@ export const optionsVisitor:ApexOptions = {
     min: 0,
     max: 100,
     tickAmount: 5,
-    // tickPlacement: 'between',
     labels: {
       style: {
         fontFamily: 'Nunito, sans-serif',
@@ -1126,11 +1074,6 @@ export const optionsVisitor:ApexOptions = {
     fontWeight: 500,
     labels: {
           colors: "var(--chart-text-color)",
-    },
-    markers: {
-      // width: 6,
-      // height: 6,
-      // radius: 12,
     },
     itemMargin: {
       horizontal: 10,

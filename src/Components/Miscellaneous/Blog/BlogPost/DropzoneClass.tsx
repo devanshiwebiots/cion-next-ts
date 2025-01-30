@@ -5,7 +5,7 @@ const DropzoneClass = () => {
   return (
     <Form className='m-b-20'>
       <div className='m-0 dz-message needsclick'>
-        <CommonFileUpload maxFiles={1} body={true} />
+        <CommonFileUpload />
       </div>
     </Form>
   );

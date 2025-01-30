@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const SocialMedia = () => {
   return (
-    <div className="social-media" data-intro="This is your social details">
+    <div className="social-media step4" data-intro="This is your social details">
       <ul className="list-inline flex-row">
         {tourProfileData &&
           tourProfileData.map((item, index) => (

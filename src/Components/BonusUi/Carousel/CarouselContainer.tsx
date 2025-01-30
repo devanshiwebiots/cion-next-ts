@@ -12,7 +12,7 @@ import VerticalCarousel from "./VerticalCarousel/VerticalCarousel";
 import WithCaption from "./WithCaption/WithCaption";
 import CenterSlide from "./CenterSlide/CenterSlide";
 
-const OwlcarouselContainer = () => {
+const CarouselContainer = () => {
   return (
     <>
       <Breadcrumbs mainTitle={OwlCarousels} parent={BonusUi} title={OwlCarousels} />
@@ -32,4 +32,4 @@ const OwlcarouselContainer = () => {
   );
 };
 
-export default OwlcarouselContainer;
+export default CarouselContainer;

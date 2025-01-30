@@ -4,7 +4,7 @@ import { List, ListInlineItem } from "reactstrap";
 
 const SocialMedia = () => {
   return (
-    <div className='social-media step4' data-intro='This is your social details'>
+    <div className='social-media' data-intro='This is your social details'>
       <List type="inline" className='list-inline simple-list flex-row'>
         {tourProfileData.map((item, index) => (
           <ListInlineItem className='list-inline-item' key={index}>

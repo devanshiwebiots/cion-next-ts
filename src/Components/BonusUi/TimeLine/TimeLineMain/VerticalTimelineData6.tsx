@@ -1,19 +1,30 @@
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import { TimeLineData6 } from "@/utils/Constant";
+import { Badge } from "reactstrap";
 
 const VerticalTimelineData6 = () => {
+  const ResolutionText: string = "I'm determined to streamline, organism, systematism, realign, and embrace life in 2024.";
+
   return (
-    <VerticalTimelineElement
-      className="cd-timeline-block"
-      date="December 31 2022"
-      icon={
-        <div className="cd-timeline-img cd-movie bg-danger">
-          <i className="icon-agenda" />
+    <div className="cd-timeline-block">
+      <div className="cd-timeline-img cd-movie bg-danger is-hidden">
+        <i className="icon-agenda" />
+      </div>
+      <div className="cd-timeline-content is-hidden">
+        <div className="vertical-timeline-element--work text-start">
+          <div className="timeline-wrapper">
+            <Badge color="warning">Resolutions</Badge>
+          </div>
+          <h4 className="m-0 vertical-timeline-element-subtitle">My Resolutions for 2025</h4>
+          <p className="mb-0">{ResolutionText}</p>
+          <div className="time-content pt-2">
+            <i className="icon-write"></i>
+            <h5>My Resolutions for 2024</h5>
+          </div>
         </div>
-      }
-    >
-      {TimeLineData6}
-    </VerticalTimelineElement>
+        <span className="cd-date">December 31 2022</span>
+      </div>
+    </div>
   );
 };
 

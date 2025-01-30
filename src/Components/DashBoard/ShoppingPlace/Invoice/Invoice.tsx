@@ -3,7 +3,8 @@ import { Invoices } from "@/utils/Constant";
 import InvoiceTable from "./InvoiceTable";
 
 const Invoice = () => {
-  return (
+
+   return (
     <Col xl={8} sm={12} className="box-col-8e order-xl-1 order-md-2">
       <Card className="invoice-card">
         <CardHeader>

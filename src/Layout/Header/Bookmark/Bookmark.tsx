@@ -30,7 +30,6 @@ const Bookmark = () => {
     keyword ? addFix() : removeFix();
     let items: any = [];
     setSearchValue(keyword);
-    console.log(keyword);
     mainMenu.map((menuItems: any) => {
       if (menuItems.title.toLowerCase().includes(keyword) && menuItems.type === "link") items = [...items, menuItems];
       if (!menuItems.subMenu) return false;

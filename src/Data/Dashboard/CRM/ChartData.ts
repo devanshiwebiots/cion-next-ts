@@ -259,7 +259,6 @@ export const salesAnalyicsChart:ApexOptions = {
     colors: [ ConfigDB.data.color.primary_color , ConfigDB.data.color.secondary_color ],
     markers: {
       size: 0,
-    //   strokeColor: ConfigDB.data.color.primary_color,
       strokeWidth: 0,
     },
     xaxis: {
@@ -352,7 +351,6 @@ export const salesAnalyicsChart:ApexOptions = {
     },
     customScale: 1,
     offsetX: 0,
-    // offsetY: 0,
     },
     },
     grid: {

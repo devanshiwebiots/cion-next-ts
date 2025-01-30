@@ -465,30 +465,10 @@
       font-weight: 700;
     }
   }
-  // .radial-chart-wrap {
-  //   // width: 110px;
-  //   margin-right: -25px;
-  //   [dir="rtl"] & {
-  //     margin-right: unset;
-  //     margin-left: -25px;
-  //   }
-  //   @media (max-width: 1820px) {
-  //     margin-right: -12px;
-  //     [dir="rtl"] & {
-  //       margin-left: -12px;
-  //     }
-  //   }
-  //   .apexcharts-canvas {
-  //     .apexcharts-datalabel-label {
-  //       display: none;
-  //     }
-  //   }
-  // }
 }
 .radial-progress-card {
   .radial-chart-wrap {
     margin-right: -25px;
-    // width: 36%; 
     [dir="rtl"] & {
       margin-right: unset; 
       margin-left: -25px;

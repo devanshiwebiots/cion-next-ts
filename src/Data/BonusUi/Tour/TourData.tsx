@@ -1,38 +1,33 @@
-import { StepType } from '@reactour/tour';
-export const tourSteps:StepType[] = [
+export const tourSteps = [
     {
-        selector: '.step1',
+        target: '.step1',
         content: 'This is Profile image',
         position: "right"
     },
     {
-        selector: '.step2',
+        target: '.step2',
         content: 'Change Profile image here',
         position: "top"
 
     },
     {
-        selector: '.step3',
+        target: '.step3',
         content: 'This is your Social details',
     },
     {
-        selector: '.step4',
-        content: 'This is your Your detail',
+        target: '.step4',
+        content: 'This is your detail',
     },
     {
-        selector: '.step5',
+        target: '.step5',
         content: 'This is the your first Post',
     },
     {
-        selector: '.step6',
-        content: 'This is the your Last Post'
-    },
-    {
-        selector: '.step7',
+        target: '.step7',
         content: 'This is your follower details'
     },
     {
-        selector: '.step8',
+        target: '.step8',
         content: 'This is your profile image'
     }
 ]

@@ -82,3 +82,15 @@ export const VariationTimelineData = [
       text: "through rounded animations.",
     },
   ];
+
+  export const CarouselDataList = [
+    {
+      image: `banner/2.jpg`,
+    },
+    {
+      image: `banner/1.jpg`,
+    },
+    {
+      image: `banner/3.jpg`,
+    },
+  ];
