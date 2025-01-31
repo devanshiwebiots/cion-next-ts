@@ -1,11 +1,9 @@
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import { TimeLineData3 } from "@/utils/Constant";
-import { Navigation, Pagination } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Badge } from "reactstrap";
-import Image from "next/image";
 import { ImagePath } from "@/Constant";
 import { CarouselDataList } from "@/Data/BonusUi/TimeLine/TimeLineData";
+import Image from "next/image";
+import { Badge } from "reactstrap";
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 const VerticalTimelineData3 = () => {
 const CarouselSpanText: string = "Spend some time looking up current design trend.";

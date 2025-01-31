@@ -1,5 +1,3 @@
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import { TimeLineData1 } from "@/utils/Constant";
 
 const VerticalTimelineData1 = () => {
   const AppIdeaText: string = "developers who are just beginning their learning process. those who often concentrate on developing programmes with a user interface.";

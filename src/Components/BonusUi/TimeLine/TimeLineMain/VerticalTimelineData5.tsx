@@ -1,5 +1,3 @@
-import { VerticalTimelineElement } from "react-vertical-timeline-component";
-import { TimeLineData5 } from "@/utils/Constant";
 import { Badge } from "reactstrap";
 
 const VerticalTimelineData5 = () => {
