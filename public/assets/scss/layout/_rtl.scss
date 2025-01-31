@@ -66,6 +66,18 @@ html[dir="rtl"] {
       }
     }
   }
+  .cd-timeline-block {
+    .cd-container {
+        .cd-timeline-img {
+            left: unset;
+            right: 51%;
+            @media (max-width: 1199px) {
+              left: unset;
+              right: 0%; 
+            } 
+        }
+    }
+  }
   .file-sidebar  {
     .pricing-plan {
       .bg-img { 

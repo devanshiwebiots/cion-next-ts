@@ -21,11 +21,31 @@
 .datepicker--cell-day {
     height: 48px;
 }
-span.twitter-typeahead {
-    .league-name {
-      font-size: 16px;
-      padding: 6px 10px 0;
+.cd-timeline-block {
+    .cd-timeline-content {
+        width: 44%;
+        background-color: $light-color;
+        border-radius: 4px;
+        @media (max-width: 1199px) {
+            width: 100%; 
+            padding: 30px; 
+        }
+    } 
+     
+    .cd-timeline-img {
+        left: 51%;
+        @media (max-width: 1199px) {
+          left: 0%; 
+        }
     }
+    
+}
+
+span.twitter-typeahead {
+    .league-name { 
+      font-size: 16px;
+      padding: 6px 10px 0; 
+    } 
     .tt-menu {
       float: left;
       width: 100%;
